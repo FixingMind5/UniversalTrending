@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		287456DF3910AEBA899A9614 /* Pods_UniversalTrending.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E461F8D81B34CD56FD1BD8B8 /* Pods_UniversalTrending.framework */; };
+		9B7C52CBF02AB58137B416ED /* Pods_UniversalTrendingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B7FA722C96082BA1B62097 /* Pods_UniversalTrendingTests.framework */; };
 		C6664CC62274DB960096BB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664CC52274DB960096BB30 /* AppDelegate.swift */; };
 		C6664CC82274DB960096BB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664CC72274DB960096BB30 /* ViewController.swift */; };
 		C6664CCB2274DB960096BB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6664CC92274DB960096BB30 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		C6664CD02274DB960096BB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6664CCE2274DB960096BB30 /* LaunchScreen.storyboard */; };
 		C6664CDB2274DB970096BB30 /* UniversalTrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664CDA2274DB970096BB30 /* UniversalTrendingTests.swift */; };
 		C6664CE62274DB970096BB30 /* UniversalTrendingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664CE52274DB970096BB30 /* UniversalTrendingUITests.swift */; };
+		C6DF52502274DC370074DAED /* GetTweets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DF524F2274DC370074DAED /* GetTweets.storyboard */; };
+		C6DF52522274DC590074DAED /* GetTweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF52512274DC590074DAED /* GetTweetsViewController.swift */; };
+		E1D246BBBCBBAE47261E6C0E /* Pods_UniversalTrendingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC1B680373B794428F549C5 /* Pods_UniversalTrendingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D3D2797B29DBACCC6AB2BFF /* Pods-UniversalTrendingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrendingUITests.release.xcconfig"; path = "Target Support Files/Pods-UniversalTrendingUITests/Pods-UniversalTrendingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52E34CEB03A5F0C386E82F59 /* Pods-UniversalTrendingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrendingTests.release.xcconfig"; path = "Target Support Files/Pods-UniversalTrendingTests/Pods-UniversalTrendingTests.release.xcconfig"; sourceTree = "<group>"; };
+		598BF8CDCE2B36EA99016702 /* Pods-UniversalTrendingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrendingUITests.debug.xcconfig"; path = "Target Support Files/Pods-UniversalTrendingUITests/Pods-UniversalTrendingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AC1B680373B794428F549C5 /* Pods_UniversalTrendingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrendingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7E8CC26240B7BC8641F673 /* Pods-UniversalTrending.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrending.release.xcconfig"; path = "Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending.release.xcconfig"; sourceTree = "<group>"; };
 		C6664CC22274DB960096BB30 /* UniversalTrending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalTrending.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6664CC52274DB960096BB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6664CC72274DB960096BB30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,12 @@
 		C6664CE12274DB970096BB30 /* UniversalTrendingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalTrendingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6664CE52274DB970096BB30 /* UniversalTrendingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalTrendingUITests.swift; sourceTree = "<group>"; };
 		C6664CE72274DB970096BB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6DF524F2274DC370074DAED /* GetTweets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GetTweets.storyboard; sourceTree = "<group>"; };
+		C6DF52512274DC590074DAED /* GetTweetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTweetsViewController.swift; sourceTree = "<group>"; };
+		D79E7C121A54EE44766B182A /* Pods-UniversalTrending.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrending.debug.xcconfig"; path = "Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending.debug.xcconfig"; sourceTree = "<group>"; };
+		E461F8D81B34CD56FD1BD8B8 /* Pods_UniversalTrending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrending.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F3E29955C65A9E8DB8D698 /* Pods-UniversalTrendingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrendingTests.debug.xcconfig"; path = "Target Support Files/Pods-UniversalTrendingTests/Pods-UniversalTrendingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3B7FA722C96082BA1B62097 /* Pods_UniversalTrendingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrendingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287456DF3910AEBA899A9614 /* Pods_UniversalTrending.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7C52CBF02AB58137B416ED /* Pods_UniversalTrendingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D246BBBCBBAE47261E6C0E /* Pods_UniversalTrendingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187EF7060B30CB7805E43703 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D79E7C121A54EE44766B182A /* Pods-UniversalTrending.debug.xcconfig */,
+				8C7E8CC26240B7BC8641F673 /* Pods-UniversalTrending.release.xcconfig */,
+				E8F3E29955C65A9E8DB8D698 /* Pods-UniversalTrendingTests.debug.xcconfig */,
+				52E34CEB03A5F0C386E82F59 /* Pods-UniversalTrendingTests.release.xcconfig */,
+				598BF8CDCE2B36EA99016702 /* Pods-UniversalTrendingUITests.debug.xcconfig */,
+				2D3D2797B29DBACCC6AB2BFF /* Pods-UniversalTrendingUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69231F0052CB2A02A14DB7AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E461F8D81B34CD56FD1BD8B8 /* Pods_UniversalTrending.framework */,
+				F3B7FA722C96082BA1B62097 /* Pods_UniversalTrendingTests.framework */,
+				5AC1B680373B794428F549C5 /* Pods_UniversalTrendingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C6664CB92274DB950096BB30 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				C6664CD92274DB970096BB30 /* UniversalTrendingTests */,
 				C6664CE42274DB970096BB30 /* UniversalTrendingUITests */,
 				C6664CC32274DB960096BB30 /* Products */,
+				187EF7060B30CB7805E43703 /* Pods */,
+				69231F0052CB2A02A14DB7AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +141,12 @@
 		C6664CC42274DB960096BB30 /* UniversalTrending */ = {
 			isa = PBXGroup;
 			children = (
+				C6DF524E2274DC1E0074DAED /* GetTweets */,
+				C6DF524D2274DC040074DAED /* LaunchScreen */,
+				C6DF524C2274DBF30074DAED /* Main */,
+				C6DF524B2274DBEB0074DAED /* Base */,
 				C6664CC52274DB960096BB30 /* AppDelegate.swift */,
-				C6664CC72274DB960096BB30 /* ViewController.swift */,
-				C6664CC92274DB960096BB30 /* Main.storyboard */,
 				C6664CCC2274DB960096BB30 /* Assets.xcassets */,
-				C6664CCE2274DB960096BB30 /* LaunchScreen.storyboard */,
 				C6664CD12274DB960096BB30 /* Info.plist */,
 			);
 			path = UniversalTrending;
@@ -125,6 +170,39 @@
 			path = UniversalTrendingUITests;
 			sourceTree = "<group>";
 		};
+		C6DF524B2274DBEB0074DAED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C6DF524C2274DBF30074DAED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C6664CC92274DB960096BB30 /* Main.storyboard */,
+				C6664CC72274DB960096BB30 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C6DF524D2274DC040074DAED /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C6664CCE2274DB960096BB30 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		C6DF524E2274DC1E0074DAED /* GetTweets */ = {
+			isa = PBXGroup;
+			children = (
+				C6DF524F2274DC370074DAED /* GetTweets.storyboard */,
+				C6DF52512274DC590074DAED /* GetTweetsViewController.swift */,
+			);
+			path = GetTweets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6664CEA2274DB970096BB30 /* Build configuration list for PBXNativeTarget "UniversalTrending" */;
 			buildPhases = (
+				CD79D348B24E04E5D4AAD5DC /* [CP] Check Pods Manifest.lock */,
 				C6664CBE2274DB950096BB30 /* Sources */,
 				C6664CBF2274DB950096BB30 /* Frameworks */,
 				C6664CC02274DB950096BB30 /* Resources */,
+				258697FA06FD368F34D047F5 /* [CP] Embed Pods Frameworks */,
+				2DCAF4D476D6CCF1DFEAA590 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6664CED2274DB970096BB30 /* Build configuration list for PBXNativeTarget "UniversalTrendingTests" */;
 			buildPhases = (
+				4259958FF15B2FC15E100BDD /* [CP] Check Pods Manifest.lock */,
 				C6664CD22274DB970096BB30 /* Sources */,
 				C6664CD32274DB970096BB30 /* Frameworks */,
 				C6664CD42274DB970096BB30 /* Resources */,
@@ -167,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6664CF02274DB970096BB30 /* Build configuration list for PBXNativeTarget "UniversalTrendingUITests" */;
 			buildPhases = (
+				9C174EC2F5BB6AA66DC93B93 /* [CP] Check Pods Manifest.lock */,
 				C6664CDD2274DB970096BB30 /* Sources */,
 				C6664CDE2274DB970096BB30 /* Frameworks */,
 				C6664CDF2274DB970096BB30 /* Resources */,
@@ -231,6 +314,7 @@
 			files = (
 				C6664CD02274DB960096BB30 /* LaunchScreen.storyboard in Resources */,
 				C6664CCD2274DB960096BB30 /* Assets.xcassets in Resources */,
+				C6DF52502274DC370074DAED /* GetTweets.storyboard in Resources */,
 				C6664CCB2274DB960096BB30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,11 +335,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		258697FA06FD368F34D047F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DCAF4D476D6CCF1DFEAA590 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4259958FF15B2FC15E100BDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalTrendingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C174EC2F5BB6AA66DC93B93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalTrendingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD79D348B24E04E5D4AAD5DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalTrending-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6664CBE2274DB950096BB30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DF52522274DC590074DAED /* GetTweetsViewController.swift in Sources */,
 				C6664CC82274DB960096BB30 /* ViewController.swift in Sources */,
 				C6664CC62274DB960096BB30 /* AppDelegate.swift in Sources */,
 			);
@@ -430,6 +630,7 @@
 		};
 		C6664CEB2274DB970096BB30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79E7C121A54EE44766B182A /* Pods-UniversalTrending.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,7 +640,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.UniversalTrending;
+				PRODUCT_BUNDLE_IDENTIFIER = UniversalTrending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +649,7 @@
 		};
 		C6664CEC2274DB970096BB30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7E8CC26240B7BC8641F673 /* Pods-UniversalTrending.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +659,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.UniversalTrending;
+				PRODUCT_BUNDLE_IDENTIFIER = UniversalTrending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +668,7 @@
 		};
 		C6664CEE2274DB970096BB30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F3E29955C65A9E8DB8D698 /* Pods-UniversalTrendingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +690,7 @@
 		};
 		C6664CEF2274DB970096BB30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E34CEB03A5F0C386E82F59 /* Pods-UniversalTrendingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +712,7 @@
 		};
 		C6664CF12274DB970096BB30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598BF8CDCE2B36EA99016702 /* Pods-UniversalTrendingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +733,7 @@
 		};
 		C6664CF22274DB970096BB30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3D2797B29DBACCC6AB2BFF /* Pods-UniversalTrendingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
