@@ -16,6 +16,17 @@
 		C6664CD02274DB960096BB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6664CCE2274DB960096BB30 /* LaunchScreen.storyboard */; };
 		C6664CDB2274DB970096BB30 /* UniversalTrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664CDA2274DB970096BB30 /* UniversalTrendingTests.swift */; };
 		C6664CE62274DB970096BB30 /* UniversalTrendingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664CE52274DB970096BB30 /* UniversalTrendingUITests.swift */; };
+		C669C4CA2275D1CD00900C51 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4C92275D1CD00900C51 /* RestKit.framework */; };
+		C669C4CC2275D1D500900C51 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4CB2275D1D500900C51 /* Starscream.framework */; };
+		C669C4CE2275D1E000900C51 /* Starscream.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4CB2275D1D500900C51 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C669C4D02275D1E000900C51 /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4C92275D1CD00900C51 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C669C4D12275D1E000900C51 /* NaturalLanguageUnderstandingV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4C72275D1BF00900C51 /* NaturalLanguageUnderstandingV1.framework */; };
+		C669C4D22275D1E000900C51 /* NaturalLanguageUnderstandingV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4C72275D1BF00900C51 /* NaturalLanguageUnderstandingV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C669C4D52275DD0E00900C51 /* ibm-credentials.env in Resources */ = {isa = PBXBuildFile; fileRef = C669C4D42275DD0E00900C51 /* ibm-credentials.env */; };
+		C669C4D72275DF8100900C51 /* DiscoveryV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4D62275DF8100900C51 /* DiscoveryV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C669C4D92275DF8700900C51 /* TextToSpeechV1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4D82275DF8700900C51 /* TextToSpeechV1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C669C4DA2275DFD100900C51 /* DiscoveryV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4D62275DF8100900C51 /* DiscoveryV1.framework */; };
+		C669C4DB2275DFD500900C51 /* TextToSpeechV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C669C4D82275DF8700900C51 /* TextToSpeechV1.framework */; };
 		C6DF525E227525710074DAED /* GetTweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF525D227525710074DAED /* GetTweet.swift */; };
 		E1D246BBBCBBAE47261E6C0E /* Pods_UniversalTrendingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC1B680373B794428F549C5 /* Pods_UniversalTrendingUITests.framework */; };
 		F60D0F3B227529D9006558B8 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D0F3A227529D9006558B8 /* Status.swift */; };
@@ -42,6 +53,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C669C4D32275D1E000900C51 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C669C4CE2275D1E000900C51 /* Starscream.framework in Embed Frameworks */,
+				C669C4D02275D1E000900C51 /* RestKit.framework in Embed Frameworks */,
+				C669C4D22275D1E000900C51 /* NaturalLanguageUnderstandingV1.framework in Embed Frameworks */,
+				C669C4D72275DF8100900C51 /* DiscoveryV1.framework in Embed Frameworks */,
+				C669C4D92275DF8700900C51 /* TextToSpeechV1.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		2D3D2797B29DBACCC6AB2BFF /* Pods-UniversalTrendingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrendingUITests.release.xcconfig"; path = "Target Support Files/Pods-UniversalTrendingUITests/Pods-UniversalTrendingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		52E34CEB03A5F0C386E82F59 /* Pods-UniversalTrendingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrendingTests.release.xcconfig"; path = "Target Support Files/Pods-UniversalTrendingTests/Pods-UniversalTrendingTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +90,16 @@
 		C6664CE12274DB970096BB30 /* UniversalTrendingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalTrendingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6664CE52274DB970096BB30 /* UniversalTrendingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalTrendingUITests.swift; sourceTree = "<group>"; };
 		C6664CE72274DB970096BB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C669C4AB2275CF9300900C51 /* NaturalLanguageUnderstanding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NaturalLanguageUnderstanding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C669C4AD2275CF9300900C51 /* RestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C669C4AF2275CF9300900C51 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C669C4C32275D19C00900C51 /* NaturalLanguageUnderstandingV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NaturalLanguageUnderstandingV1.framework; path = Carthage/Build/iOS/NaturalLanguageUnderstandingV1.framework; sourceTree = "<group>"; };
+		C669C4C72275D1BF00900C51 /* NaturalLanguageUnderstandingV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NaturalLanguageUnderstandingV1.framework; sourceTree = SOURCE_ROOT; };
+		C669C4C92275D1CD00900C51 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		C669C4CB2275D1D500900C51 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
+		C669C4D42275DD0E00900C51 /* ibm-credentials.env */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ibm-credentials.env"; sourceTree = "<group>"; };
+		C669C4D62275DF8100900C51 /* DiscoveryV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscoveryV1.framework; path = Carthage/Build/iOS/DiscoveryV1.framework; sourceTree = "<group>"; };
+		C669C4D82275DF8700900C51 /* TextToSpeechV1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextToSpeechV1.framework; path = Carthage/Build/iOS/TextToSpeechV1.framework; sourceTree = "<group>"; };
 		C6DF525D227525710074DAED /* GetTweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTweet.swift; sourceTree = "<group>"; };
 		D79E7C121A54EE44766B182A /* Pods-UniversalTrending.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrending.debug.xcconfig"; path = "Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending.debug.xcconfig"; sourceTree = "<group>"; };
 		E461F8D81B34CD56FD1BD8B8 /* Pods_UniversalTrending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrending.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +118,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				287456DF3910AEBA899A9614 /* Pods_UniversalTrending.framework in Frameworks */,
+				C669C4DB2275DFD500900C51 /* TextToSpeechV1.framework in Frameworks */,
+				C669C4D12275D1E000900C51 /* NaturalLanguageUnderstandingV1.framework in Frameworks */,
+				C669C4CC2275D1D500900C51 /* Starscream.framework in Frameworks */,
+				C669C4DA2275DFD100900C51 /* DiscoveryV1.framework in Frameworks */,
+				C669C4CA2275D1CD00900C51 /* RestKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +161,10 @@
 		69231F0052CB2A02A14DB7AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C669C4C32275D19C00900C51 /* NaturalLanguageUnderstandingV1.framework */,
+				C669C4AB2275CF9300900C51 /* NaturalLanguageUnderstanding.framework */,
+				C669C4AD2275CF9300900C51 /* RestKit.framework */,
+				C669C4AF2275CF9300900C51 /* Starscream.framework */,
 				E461F8D81B34CD56FD1BD8B8 /* Pods_UniversalTrending.framework */,
 				F3B7FA722C96082BA1B62097 /* Pods_UniversalTrendingTests.framework */,
 				5AC1B680373B794428F549C5 /* Pods_UniversalTrendingUITests.framework */,
@@ -127,6 +175,12 @@
 		C6664CB92274DB950096BB30 = {
 			isa = PBXGroup;
 			children = (
+				C669C4D82275DF8700900C51 /* TextToSpeechV1.framework */,
+				C669C4D62275DF8100900C51 /* DiscoveryV1.framework */,
+				C669C4D42275DD0E00900C51 /* ibm-credentials.env */,
+				C669C4CB2275D1D500900C51 /* Starscream.framework */,
+				C669C4C92275D1CD00900C51 /* RestKit.framework */,
+				C669C4C72275D1BF00900C51 /* NaturalLanguageUnderstandingV1.framework */,
 				C6664CC42274DB960096BB30 /* UniversalTrending */,
 				C6664CD92274DB970096BB30 /* UniversalTrendingTests */,
 				C6664CE42274DB970096BB30 /* UniversalTrendingUITests */,
@@ -228,6 +282,7 @@
 				C6664CC02274DB950096BB30 /* Resources */,
 				258697FA06FD368F34D047F5 /* [CP] Embed Pods Frameworks */,
 				2DCAF4D476D6CCF1DFEAA590 /* [CP] Copy Pods Resources */,
+				C669C4D32275D1E000900C51 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -330,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6664CD02274DB960096BB30 /* LaunchScreen.storyboard in Resources */,
+				C669C4D52275DD0E00900C51 /* ibm-credentials.env in Resources */,
 				C6664CCD2274DB960096BB30 /* Assets.xcassets in Resources */,
 				C6664CCB2274DB960096BB30 /* Main.storyboard in Resources */,
 			);
@@ -361,8 +417,6 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/IBMWatsonNaturalLanguageUnderstandingV1/NaturalLanguageUnderstanding.framework",
-				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
@@ -370,8 +424,6 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NaturalLanguageUnderstanding.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 			);
@@ -661,6 +713,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93Z932827W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UniversalTrending/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -683,6 +740,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 93Z932827W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = UniversalTrending/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

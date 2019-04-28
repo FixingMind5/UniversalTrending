@@ -21,47 +21,51 @@
                                 <rect key="frame" x="67" y="342" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o42-6d-I7m">
-                                <rect key="frame" x="93" y="174" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o42-6d-I7m">
+                                <rect key="frame" x="20" y="174" width="335" height="20.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flL-pO-d8u">
-                                <rect key="frame" x="172" y="185" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oG0-uv-CTp"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="here is your code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gH0-ag-SBR">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="here is your code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gH0-ag-SBR">
                                 <rect key="frame" x="121" y="100" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flL-pO-d8u">
+                                <rect key="frame" x="146.66666666666666" y="232.33333333333334" width="46" height="30.000000000000028"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="checkButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gx6-Nv-VmN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="o42-6d-I7m" firstAttribute="top" secondItem="gH0-ag-SBR" secondAttribute="bottom" constant="44" id="8TK-vE-YKH"/>
+                            <constraint firstItem="flL-pO-d8u" firstAttribute="top" secondItem="o42-6d-I7m" secondAttribute="bottom" constant="38" id="BZy-mr-ppP"/>
                             <constraint firstItem="QmP-T1-KZI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="DmE-uX-bjU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="o42-6d-I7m" secondAttribute="trailing" constant="20" id="K1d-9C-O24"/>
+                            <constraint firstItem="gH0-ag-SBR" firstAttribute="centerX" secondItem="flL-pO-d8u" secondAttribute="centerX" id="K9r-PP-shA"/>
                             <constraint firstItem="QmP-T1-KZI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="298" id="KX9-6q-l2J"/>
+                            <constraint firstItem="o42-6d-I7m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="NEe-vl-LfY"/>
+                            <constraint firstItem="gH0-ag-SBR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="Vwq-nO-2JT"/>
+                            <constraint firstItem="gH0-ag-SBR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="YBs-hr-kMa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QmP-T1-KZI" secondAttribute="trailing" constant="68" id="eZf-3t-VFU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gH0-ag-SBR" secondAttribute="trailing" constant="157" id="otZ-eS-Ihm"/>
                             <constraint firstItem="QmP-T1-KZI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rG5-j1-CaD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="aux" destination="QmP-T1-KZI" id="bIu-Y6-02L"/>
-                        <outlet property="label" destination="o42-6d-I7m" id="Vtr-ZZ-3fE"/>
-                        <outlet property="text" destination="gH0-ag-SBR" id="4cS-g2-58S"/>
+                        <outlet property="statusLabel" destination="o42-6d-I7m" id="lid-1u-yH8"/>
+                        <outlet property="textField" destination="gH0-ag-SBR" id="Xr2-MK-Q7f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-250" y="-24"/>
+            <point key="canvasLocation" x="305" y="-38"/>
         </scene>
         <!--Get Tweet-->
         <scene sceneID="MaI-Wg-29l">

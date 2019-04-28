@@ -1,28 +1,20 @@
 PODS:
-  - IBMWatsonNaturalLanguageUnderstandingV1 (2.0.0):
-    - IBMWatsonRestKit (~> 3.0.0)
-  - IBMWatsonRestKit (3.0.0)
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.2):
     - TwitterCore (>= 3.2.0)
 
 DEPENDENCIES:
-  - IBMWatsonNaturalLanguageUnderstandingV1
   - TwitterKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - IBMWatsonNaturalLanguageUnderstandingV1
-    - IBMWatsonRestKit
     - TwitterCore
     - TwitterKit
 
 SPEC CHECKSUMS:
-  IBMWatsonNaturalLanguageUnderstandingV1: 1456d899632fc380cd94d40fa32e6f71aa68048f
-  IBMWatsonRestKit: 53133c1910c8cac023f136b75ed7509845ea4b60
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 
-PODFILE CHECKSUM: 6d3d76f1109667b269642e4afa37ae48ea74c7ed
+PODFILE CHECKSUM: 7202cb8b9d7c55c145e4c8392d0d6e9fe0284620
 
 COCOAPODS: 1.6.1
