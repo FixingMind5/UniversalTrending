@@ -1,5 +1,5 @@
 //
-//  StatusChange.swift
+//  NegativeStatus.swift
 //  UniversalTrending
 //
 //  Created by eyc on 27/04/19.
@@ -8,13 +8,10 @@
 
 import UIKit
 
-class StatusChange: UIViewController
+class NegativeStatus: UIViewController
 {
-    @IBOutlet weak var TextoLabel: UILabel!
-    var Texto:String = ""
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        TextoLabel.text = Texto
     }
 }

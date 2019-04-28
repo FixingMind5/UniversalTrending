@@ -75,13 +75,13 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBS-75-WsQ">
                                 <rect key="frame" x="16" y="678" width="100" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.006027286410393521" green="0.78372858502538068" blue="0.12580651793090039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0078431372549019607" green="0.78431372549019607" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Positivo">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="PositiveComent:" destination="2T9-rl-kAW" eventType="touchUpInside" id="TdR-Ly-GHk"/>
-                                    <segue destination="SM6-jF-TMz" kind="push" identifier="StatusChangeSegue" id="JTY-Hm-OdM"/>
+                                    <segue destination="orU-Iz-Rds" kind="show" id="dSO-7h-daS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgi-5K-9im">
@@ -93,6 +93,7 @@
                                 </state>
                                 <connections>
                                     <action selector="NegativeComent:" destination="2T9-rl-kAW" eventType="touchUpInside" id="fuR-mC-PhS"/>
+                                    <segue destination="tKG-3h-0CH" kind="show" id="B5e-Tq-0mp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pT2-jj-T2s">
@@ -104,6 +105,7 @@
                                 </state>
                                 <connections>
                                     <action selector="NeutralComent:" destination="2T9-rl-kAW" eventType="touchUpInside" id="GBq-7N-h8c"/>
+                                    <segue destination="d9N-JQ-FNi" kind="show" id="nPp-z6-fpY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -115,52 +117,50 @@
             </objects>
             <point key="canvasLocation" x="1820" y="-38"/>
         </scene>
-        <!--Status-->
-        <scene sceneID="4Nf-2c-JaV">
+        <!--Neutral Status-->
+        <scene sceneID="9ic-6k-4bS">
             <objects>
-                <viewController id="Bu7-Gd-NIf" customClass="StatusChange" customModule="UniversalTrending" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="X8F-ZL-h2d">
+                <viewController id="d9N-JQ-FNi" customClass="NeutralStatus" customModule="UniversalTrending" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DBG-QE-7OJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Texto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29d-sO-Mx4">
-                                <rect key="frame" x="46" y="117" width="283" height="77"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="KwO-JH-iUi"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="GS1-u9-TNV"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Status" id="ImI-Zr-rkG"/>
-                    <connections>
-                        <outlet property="TextoLabel" destination="29d-sO-Mx4" id="VoZ-DA-SmR"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IgH-Oa-sfA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BMm-i5-4GI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3322" y="-38"/>
+            <point key="canvasLocation" x="3119" y="-38"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="kxt-iX-AZJ">
+        <!--Negative Status-->
+        <scene sceneID="CAB-jK-Fnt">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SM6-jF-TMz" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="rNa-Mp-WuW"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mhE-ja-x48">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Bu7-Gd-NIf" kind="relationship" relationship="rootViewController" id="dEh-Jf-Q5Z"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="S7P-DI-F0q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="tKG-3h-0CH" customClass="NegativeStatus" customModule="UniversalTrending" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pKH-OV-iWx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="kwC-FG-zJk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rqH-dK-7a1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2564" y="-38"/>
+            <point key="canvasLocation" x="3118" y="638"/>
+        </scene>
+        <!--Positive Status-->
+        <scene sceneID="5Xb-JZ-u9e">
+            <objects>
+                <viewController id="orU-Iz-Rds" customClass="PositiveStatus" customModule="UniversalTrending" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mCg-ns-Eic">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0078431372549019607" green="0.78431372549019607" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="7U4-vX-cIQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="msY-w0-KnI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3119" y="-695"/>
         </scene>
     </scenes>
 </document>
