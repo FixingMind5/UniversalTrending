@@ -16,8 +16,6 @@
 		C6664CD02274DB960096BB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6664CCE2274DB960096BB30 /* LaunchScreen.storyboard */; };
 		C6664CDB2274DB970096BB30 /* UniversalTrendingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664CDA2274DB970096BB30 /* UniversalTrendingTests.swift */; };
 		C6664CE62274DB970096BB30 /* UniversalTrendingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6664CE52274DB970096BB30 /* UniversalTrendingUITests.swift */; };
-		C6DF52502274DC370074DAED /* GetTweets.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6DF524F2274DC370074DAED /* GetTweets.storyboard */; };
-		C6DF52522274DC590074DAED /* GetTweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF52512274DC590074DAED /* GetTweetsViewController.swift */; };
 		C6DF525E227525710074DAED /* GetTweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DF525D227525710074DAED /* GetTweet.swift */; };
 		E1D246BBBCBBAE47261E6C0E /* Pods_UniversalTrendingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC1B680373B794428F549C5 /* Pods_UniversalTrendingUITests.framework */; };
 		F60D0F3B227529D9006558B8 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D0F3A227529D9006558B8 /* Status.swift */; };
@@ -63,8 +61,6 @@
 		C6664CE12274DB970096BB30 /* UniversalTrendingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalTrendingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6664CE52274DB970096BB30 /* UniversalTrendingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalTrendingUITests.swift; sourceTree = "<group>"; };
 		C6664CE72274DB970096BB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6DF524F2274DC370074DAED /* GetTweets.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GetTweets.storyboard; sourceTree = "<group>"; };
-		C6DF52512274DC590074DAED /* GetTweetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTweetsViewController.swift; sourceTree = "<group>"; };
 		C6DF525D227525710074DAED /* GetTweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTweet.swift; sourceTree = "<group>"; };
 		D79E7C121A54EE44766B182A /* Pods-UniversalTrending.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalTrending.debug.xcconfig"; path = "Target Support Files/Pods-UniversalTrending/Pods-UniversalTrending.debug.xcconfig"; sourceTree = "<group>"; };
 		E461F8D81B34CD56FD1BD8B8 /* Pods_UniversalTrending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrending.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,7 +149,7 @@
 		C6664CC42274DB960096BB30 /* UniversalTrending */ = {
 			isa = PBXGroup;
 			children = (
-				C6DF524E2274DC1E0074DAED /* GetTweets */,
+				C6DF525F2275A4FE0074DAED /* Framework */,
 				C6DF524D2274DC040074DAED /* LaunchScreen */,
 				C6DF524C2274DBF30074DAED /* Main */,
 				C6DF524B2274DBEB0074DAED /* Base */,
@@ -212,13 +208,11 @@
 			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
-		C6DF524E2274DC1E0074DAED /* GetTweets */ = {
+		C6DF525F2275A4FE0074DAED /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				C6DF524F2274DC370074DAED /* GetTweets.storyboard */,
-				C6DF52512274DC590074DAED /* GetTweetsViewController.swift */,
 			);
-			path = GetTweets;
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,7 +331,6 @@
 			files = (
 				C6664CD02274DB960096BB30 /* LaunchScreen.storyboard in Resources */,
 				C6664CCD2274DB960096BB30 /* Assets.xcassets in Resources */,
-				C6DF52502274DC370074DAED /* GetTweets.storyboard in Resources */,
 				C6664CCB2274DB960096BB30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,7 +475,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DF52522274DC590074DAED /* GetTweetsViewController.swift in Sources */,
 				F6F5562C2275660B004684D3 /* NegativeStatus.swift in Sources */,
 				F60D0F3B227529D9006558B8 /* Status.swift in Sources */,
 				C6664CC82274DB960096BB30 /* ViewController.swift in Sources */,
