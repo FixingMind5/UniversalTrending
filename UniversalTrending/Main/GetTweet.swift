@@ -6,4 +6,12 @@
 //  Copyright © 2019 Manuel Alejandro Aguilar Tellez Giron. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class GetTweet: UIViewController
+{
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+    }
+}
