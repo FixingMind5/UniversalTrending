@@ -57,7 +57,7 @@
         <!--Status-->
         <scene sceneID="BB8-g6-6zp">
             <objects>
-                <viewController id="2T9-rl-kAW" customClass="Status" customModule="UniversalTrending" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StatusChangeVista" id="2T9-rl-kAW" customClass="Status" customModule="UniversalTrending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n7Y-bU-7yO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,7 +81,7 @@
                                 </state>
                                 <connections>
                                     <action selector="PositiveComent:" destination="2T9-rl-kAW" eventType="touchUpInside" id="TdR-Ly-GHk"/>
-                                    <segue destination="SM6-jF-TMz" kind="show" identifier="StatusChangeSegue" id="JTY-Hm-OdM"/>
+                                    <segue destination="SM6-jF-TMz" kind="push" identifier="StatusChangeSegue" id="JTY-Hm-OdM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgi-5K-9im">
@@ -118,13 +118,13 @@
         <!--Status-->
         <scene sceneID="4Nf-2c-JaV">
             <objects>
-                <viewController storyboardIdentifier="StatusChange" id="Bu7-Gd-NIf" customClass="StatusChange" customModule="UniversalTrending" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Bu7-Gd-NIf" customClass="StatusChange" customModule="UniversalTrending" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X8F-ZL-h2d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Texto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29d-sO-Mx4">
-                                <rect key="frame" x="46" y="104" width="283" height="77"/>
+                                <rect key="frame" x="46" y="117" width="283" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="textColor"/>
@@ -136,7 +136,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Status" id="ImI-Zr-rkG"/>
                     <connections>
-                        <outlet property="Texto" destination="29d-sO-Mx4" id="qaP-iG-7sy"/>
+                        <outlet property="TextoLabel" destination="29d-sO-Mx4" id="VoZ-DA-SmR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IgH-Oa-sfA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -148,6 +148,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SM6-jF-TMz" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="rNa-Mp-WuW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mhE-ja-x48">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

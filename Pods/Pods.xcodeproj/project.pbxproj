@@ -16,6 +16,7 @@
 				FB43D4CB6A302FF0E62CDA3FFF0859CF /* PBXTargetDependency */,
 			);
 			name = TwitterKit;
+			productName = TwitterKit;
 		};
 		E2E82363716E9655CF3155CBA3AD0EE2 /* TwitterCore */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 			dependencies = (
 			);
 			name = TwitterCore;
+			productName = TwitterCore;
 		};
 /* End PBXAggregateTarget section */
 
@@ -89,19 +91,19 @@
 		408FD9D53032335775350554709E72B7 /* Pods-UniversalTrending.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalTrending.release.xcconfig"; sourceTree = "<group>"; };
 		47CD90FA84EEF46AD68CA904DCD59E0A /* Pods-UniversalTrendingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalTrendingUITests-Info.plist"; sourceTree = "<group>"; };
 		535268FDA6D75F224C1F0CDA821DC8EE /* Pods-UniversalTrendingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalTrendingUITests.release.xcconfig"; sourceTree = "<group>"; };
-		55900AE95E76B02EDE13904522ECA9FD /* Pods_UniversalTrending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UniversalTrending.framework; path = "Pods-UniversalTrending.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55900AE95E76B02EDE13904522ECA9FD /* Pods_UniversalTrending.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrending.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EF0712E61C98FB3FEFD05AEE211C7D /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		71FF2F3D1D327DA908C2A4CF6F60D45D /* Pods-UniversalTrending.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniversalTrending.modulemap"; sourceTree = "<group>"; };
 		734B999362C29B98BF85D948CB83360C /* Pods-UniversalTrending-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UniversalTrending-Info.plist"; sourceTree = "<group>"; };
 		73CD1AF26EB797F2D98FC4D114FF6520 /* Pods-UniversalTrendingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniversalTrendingUITests-dummy.m"; sourceTree = "<group>"; };
 		754805934D36168F4D2351ABA1FC6FF1 /* Pods-UniversalTrendingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UniversalTrendingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7B0ABA2936D1EFB763FE28A8B6AC623A /* Pods-UniversalTrendingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniversalTrendingTests.modulemap"; sourceTree = "<group>"; };
-		864E52734D2A0B40BE002A5370FE524C /* Pods_UniversalTrendingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UniversalTrendingTests.framework; path = "Pods-UniversalTrendingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		86D23374BAF449778A467C89EBF89E20 /* Pods_UniversalTrendingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UniversalTrendingUITests.framework; path = "Pods-UniversalTrendingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		864E52734D2A0B40BE002A5370FE524C /* Pods_UniversalTrendingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrendingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D23374BAF449778A467C89EBF89E20 /* Pods_UniversalTrendingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrendingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87EFCA11341F1D8131E594350EC7FF63 /* Pods-UniversalTrendingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UniversalTrendingUITests.modulemap"; sourceTree = "<group>"; };
 		8C54AEECF958E8671C77CC8C47FA72F0 /* Pods-UniversalTrendingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UniversalTrendingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D8613D129D805EE375E3E41EDE3FE42 /* Pods-UniversalTrendingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UniversalTrendingTests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3DEA0D2E4DA5D9F1C2A916FFFB20619 /* Pods-UniversalTrendingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniversalTrendingTests-dummy.m"; sourceTree = "<group>"; };
 		A595627513A03EF79E76938D07AF30C8 /* Pods-UniversalTrending-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UniversalTrending-dummy.m"; sourceTree = "<group>"; };
 		B02FFAFAAF07ED347D74F2EAA7EBE383 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
@@ -219,7 +221,6 @@
 				6BE1F5001C26B4D6A4CB7E0B32AF723B /* Frameworks */,
 				97B2BCCF71479544FDAA82D68B1E3752 /* Support Files */,
 			);
-			name = TwitterCore;
 			path = TwitterCore;
 			sourceTree = "<group>";
 		};
@@ -291,7 +292,6 @@
 				07CD99D1AA30BF081D1266265C816A0C /* Resources */,
 				1D6112EB319583CF41570FC8442EFFB9 /* Support Files */,
 			);
-			name = TwitterKit;
 			path = TwitterKit;
 			sourceTree = "<group>";
 		};
@@ -676,7 +676,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -848,7 +847,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
