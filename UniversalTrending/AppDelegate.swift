@@ -20,10 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         TWTRTwitter.sharedInstance().start(
             withConsumerKey: "fQwJsGMKb9fv5S6mRPThIz24p",
             consumerSecret: "ZuY5Aee88TZlZDay6YoDQf8doFDmJ4bl0IDuDj2okITfuTlvfy")
-        
-            window = UIWindow()
-            window?.makeKeyAndVisible()
-        window?.rootViewController = UINavigationController(rootViewController: GetTweet())
         return true
     }
 
