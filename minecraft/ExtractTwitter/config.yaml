@@ -1,0 +1,5 @@
+tweet_sites:
+  twitter_el_universal:
+    url: https://twitter.com/El_Universal_Mx/status/1122227666017378305
+    queries:
+      comentaries: '.js-tweet-text-container p'
