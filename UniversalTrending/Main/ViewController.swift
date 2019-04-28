@@ -16,8 +16,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        //showTweet(id: "1122235471004880896")
+        showTweet(id: "1122235471004880896")
     }
+    @IBOutlet weak var aux: UIView!
+    
     
     func showTweet(id: String) {
         var tweetView: TWTRTweetView?
@@ -28,10 +30,10 @@ class ViewController: UIViewController {
             if let t = tweet {
                 if let tweetView = tweetView {
                     tweetView.configure(with: t)
-                    self.view.addSubview(tweetView)
+                    self.aux.addSubview(tweetView)
                 } else {
                     tweetView = TWTRTweetView(tweet: t, style: TWTRTweetViewStyle.regular)
-                    self.view.addSubview(tweetView!)
+                    self.aux.addSubview(tweetView!)
                 }
             } else {
                 print("Failed to load tweet \(error!.localizedDescription)")

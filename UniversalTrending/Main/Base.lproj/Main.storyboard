@@ -22,6 +22,13 @@
                                 <rect key="frame" x="184" y="606" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QmZ-Bs-EqW">
+                                <rect key="frame" x="87" y="211" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="80H-6a-Xu0" kind="embed" id="pXc-UU-lj8"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -29,9 +36,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="aux" destination="QmZ-Bs-EqW" id="Dem-ax-0hq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="380" y="-33"/>
         </scene>
         <!--Get Tweet-->
         <scene sceneID="MaI-Wg-29l">
@@ -154,6 +165,19 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7P-DI-F0q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2734.7826086956525" y="20.758928571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jsh-co-Xmg">
+            <objects>
+                <viewController id="80H-6a-Xu0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j8d-RW-Pas">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LiH-cT-IxK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
 </document>
