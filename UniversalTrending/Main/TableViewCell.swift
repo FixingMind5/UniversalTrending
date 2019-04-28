@@ -25,7 +25,17 @@ class TableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         addSubview(viewTwitter)
         viewTwitter.backgroundColor = .green
-        viewTwitter.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        viewTwitter.layer.cornerRadius = 10
+        viewTwitter.translatesAutoresizingMaskIntoConstraints = false
+        let constrain = [viewTwitter.topAnchor.constraint(equalTo: topAnchor, constant: 16),
+                         viewTwitter.leadingAnchor.constraint(equalTo: leadingAnchor, constant: -16),
+                         viewTwitter.bottomAnchor.constraint(equalTo:  bottomAnchor, constant: -16),
+            viewTwitter.widthAnchor.constraint(equalTo: widthAnchor)]
+        
+        NSLayoutConstraint.activate(constrain)
+        //viewTwitter.frame = CGRect(x: 0, y: 0, width: , height: 100)
+        viewTwitter.sizeToFit()
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

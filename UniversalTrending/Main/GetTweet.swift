@@ -10,15 +10,17 @@ class GetTweet: UITableViewController{
     {
         super.viewDidLoad()
         tableView.register(TableViewCell.self, forCellReuseIdentifier: cellid)
+        tableView.separatorStyle = .none
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 5
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellid, for: indexPath)
-        cell.textLabel?.text = "Something"
-        cell.textLabel?.numberOfLines = 0
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellid, for: indexPath) as! TableViewCell
+        //cell.textLabel?.text = "Something"
+        //cell.textLabel?.numberOfLines = 0
+        
         return cell
     }
 }
