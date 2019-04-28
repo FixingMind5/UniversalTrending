@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        showTweet(id: "1122235471004880896")
+        //showTweet(id: "1122235471004880896")
     }
     
     func showTweet(id: String) {
