@@ -22,6 +22,7 @@
 		E1D246BBBCBBAE47261E6C0E /* Pods_UniversalTrendingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC1B680373B794428F549C5 /* Pods_UniversalTrendingUITests.framework */; };
 		F60D0F3B227529D9006558B8 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D0F3A227529D9006558B8 /* Status.swift */; };
 		F60D0F3D22753052006558B8 /* StatusChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D0F3C22753052006558B8 /* StatusChange.swift */; };
+		F6F5560222754A92004684D3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F5560122754A92004684D3 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		F3B7FA722C96082BA1B62097 /* Pods_UniversalTrendingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalTrendingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60D0F3A227529D9006558B8 /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		F60D0F3C22753052006558B8 /* StatusChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusChange.swift; sourceTree = "<group>"; };
+		F6F5560122754A92004684D3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				F60D0F3A227529D9006558B8 /* Status.swift */,
 				C6664CC72274DB960096BB30 /* ViewController.swift */,
 				C6DF525D227525710074DAED /* GetTweet.swift */,
+				F6F5560122754A92004684D3 /* TableViewCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				F60D0F3B227529D9006558B8 /* Status.swift in Sources */,
 				C6664CC82274DB960096BB30 /* ViewController.swift in Sources */,
 				C6DF525E227525710074DAED /* GetTweet.swift in Sources */,
+				F6F5560222754A92004684D3 /* TableViewCell.swift in Sources */,
 				C6664CC62274DB960096BB30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,8 +650,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 93Z932827W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UniversalTrending/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -665,8 +670,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 93Z932827W;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UniversalTrending/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
